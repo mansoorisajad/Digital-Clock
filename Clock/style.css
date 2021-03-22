@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.wrapper{
+    
+    height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff22006b, #e81d1db2, #e8b91dbb, #e5e81da9, #1de83faf, #1ddee8b2, #2b1de8b0, #df00f3b6, #df00f3ab);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+.calendare{
+    opacity: 1 !important;
+    width: 500px;
+    margin:  400px auto;
+    
+    text-align: center;
+    color: white;
+    text-shadow: black 1px 1px 5px;
+}
+.banner{
+    background: rgb(255, 92, 92);
+    width: 110px;
+    margin: 0 auto;
+    padding: 5px;
+    transform: translateY(15px);
+}
+.time{
+    background-color: white;
+    color: black;
+    text-shadow: none;
+    padding: 50px 0;
+    font-size: 4rem;
+    font-family: 'Orbitron', sans-serif;}
+.date  {
+    background: rgb(255, 92, 92);
+    width:300px;
+    margin:0 auto;
+    padding:5px 0;
+    transform: translateY(-15px);
+}
+.banner, .time, .date {
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
