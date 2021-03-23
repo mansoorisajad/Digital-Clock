@@ -2,8 +2,8 @@ function clock(){
     let date=new Date();
     let year=date.getFullYear();
     let month = date.getMonth();
-    let dayNumber =date.getUTCDate();
-    let day =date.getUTCDay();
+    let dayNumber =date.getDate();
+    let day =date.getDay();
     let hours =date.getHours();
     let minutes =date.getMinutes();
     let seconds =date.getSeconds();
